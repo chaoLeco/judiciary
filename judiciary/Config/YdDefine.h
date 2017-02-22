@@ -54,6 +54,11 @@
 #define kUserDefaults      [NSUserDefaults standardUserDefaults]
 
 #define kNotificationCenter [NSNotificationCenter defaultCenter]
+
+//applicationFrame
+#define KApplicationFrame [[UIScreen mainScreen] applicationFrame]
+//bounds
+#define KBounds [[UIScreen mainScreen] bounds]
 //*
 //APP版本号
 

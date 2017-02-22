@@ -26,6 +26,7 @@
         _wkWebView.allowsBackForwardNavigationGestures = YES;
         _wkWebView.UIDelegate = self;
         [self.view addSubview:_wkWebView];
+        [self.view sendSubviewToBack:_wkWebView];
     }
     return _wkWebView;
 }

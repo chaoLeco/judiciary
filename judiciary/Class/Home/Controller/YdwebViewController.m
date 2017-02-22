@@ -1,22 +1,28 @@
 //
-//  YdForumViewController.m
+//  YdwebViewController.m
 //  judiciary
 //
-//  Created by lecochao on 2017/2/21.
+//  Created by lecochao on 2017/2/22.
 //  Copyright © 2017年 yunduan. All rights reserved.
 //
 
-#import "YdForumViewController.h"
+#import "YdwebViewController.h"
 
-@interface YdForumViewController ()
+@interface YdwebViewController ()
 
 @end
 
-@implementation YdForumViewController
+@implementation YdwebViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self webLoadRequestUrl:@"http://www.baidu.com"];
+    // Do any additional setup after loading the view.
+    [self webLoadRequestUrl:@"https://www.baidu.com"];
+}
+
+- (IBAction)goback:(UIButton *)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

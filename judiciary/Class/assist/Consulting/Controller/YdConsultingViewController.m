@@ -32,7 +32,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    [self performSegueWithIdentifier:@"pushYdLawyerWebViewControllerSegue" sender:nil];
 }
 
 - (void)didReceiveMemoryWarning {

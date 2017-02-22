@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SDCycleScrollView.h"
 
-@interface YdHomeTableViewCell : UITableViewCell
+@interface YdHomeTableViewCell : UITableViewCell<SDCycleScrollViewDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *lblTitle;
+@property (weak, nonatomic) IBOutlet UIView *bannerView;
+
+@property (strong,nonatomic) SDCycleScrollView *cycleScrollView;
 @end

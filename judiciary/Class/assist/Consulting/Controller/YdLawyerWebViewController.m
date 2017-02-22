@@ -1,27 +1,33 @@
 //
-//  YdForumViewController.m
+//  YdLawyerWebViewController.m
 //  judiciary
 //
-//  Created by lecochao on 2017/2/21.
+//  Created by lecochao on 2017/2/22.
 //  Copyright © 2017年 yunduan. All rights reserved.
 //
 
-#import "YdForumViewController.h"
+#import "YdLawyerWebViewController.h"
 
-@interface YdForumViewController ()
+@interface YdLawyerWebViewController ()
 
 @end
 
-@implementation YdForumViewController
+@implementation YdLawyerWebViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self webLoadRequestUrl:@"http://www.baidu.com"];
+    // Do any additional setup after loading the view.
+    [self webLoadRequestUrl:@"https://www.baidu.com"];
+    self.wkWebView.frame = CGRectMake(0, 64, CGRectGetWidth(KBounds), CGRectGetHeight(KBounds)-40);
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)goback:(UIButton *)sender {
+    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 /*
