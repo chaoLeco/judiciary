@@ -64,6 +64,9 @@
 		DAACFCF61E5C2C11009A859D /* ad_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAACFCF21E5C2C11009A859D /* ad_3.jpg */; };
 		DAACFCF71E5C2C11009A859D /* ad_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAACFCF31E5C2C11009A859D /* ad_4.jpg */; };
 		DAACFCF91E5C2F42009A859D /* QQ20170221-161723.png in Resources */ = {isa = PBXBuildFile; fileRef = DAACFCF81E5C2F41009A859D /* QQ20170221-161723.png */; };
+		DAF246B21E5E899D0092A39B /* loginBgImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAF246B11E5E899D0092A39B /* loginBgImg.jpg */; };
+		DAF246B61E5E8FEF0092A39B /* YdLodinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF246B51E5E8FEF0092A39B /* YdLodinViewController.m */; };
+		DAF246B91E5E901C0092A39B /* YdRegisteredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF246B81E5E901C0092A39B /* YdRegisteredViewController.m */; };
 		E6E04AC3467DADB3C1F54EB5 /* libPods-judiciary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB2BC31A75B8390B34204F2 /* libPods-judiciary.a */; };
 /* End PBXBuildFile section */
 
@@ -173,6 +176,11 @@
 		DAACFCF21E5C2C11009A859D /* ad_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ad_3.jpg; sourceTree = "<group>"; };
 		DAACFCF31E5C2C11009A859D /* ad_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ad_4.jpg; sourceTree = "<group>"; };
 		DAACFCF81E5C2F41009A859D /* QQ20170221-161723.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20170221-161723.png"; sourceTree = "<group>"; };
+		DAF246B11E5E899D0092A39B /* loginBgImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBgImg.jpg; sourceTree = "<group>"; };
+		DAF246B41E5E8FEF0092A39B /* YdLodinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YdLodinViewController.h; sourceTree = "<group>"; };
+		DAF246B51E5E8FEF0092A39B /* YdLodinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YdLodinViewController.m; sourceTree = "<group>"; };
+		DAF246B71E5E901C0092A39B /* YdRegisteredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YdRegisteredViewController.h; sourceTree = "<group>"; };
+		DAF246B81E5E901C0092A39B /* YdRegisteredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YdRegisteredViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +273,7 @@
 		DAACFC1E1E5BDE54009A859D /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				DAF246B31E5E8FAF0092A39B /* Lodin */,
 				DAACFC641E5BE3BC009A859D /* 律师咨询 */,
 				DAACFC501E5BE342009A859D /* 援助申请 */,
 				DAACFC581E5BE342009A859D /* 论坛 */,
@@ -591,8 +600,20 @@
 				DAACFCF11E5C2C11009A859D /* ad_2.jpg */,
 				DAACFCF21E5C2C11009A859D /* ad_3.jpg */,
 				DAACFCF31E5C2C11009A859D /* ad_4.jpg */,
+				DAF246B11E5E899D0092A39B /* loginBgImg.jpg */,
 			);
 			name = "杂乱";
+			sourceTree = "<group>";
+		};
+		DAF246B31E5E8FAF0092A39B /* Lodin */ = {
+			isa = PBXGroup;
+			children = (
+				DAF246B41E5E8FEF0092A39B /* YdLodinViewController.h */,
+				DAF246B51E5E8FEF0092A39B /* YdLodinViewController.m */,
+				DAF246B71E5E901C0092A39B /* YdRegisteredViewController.h */,
+				DAF246B81E5E901C0092A39B /* YdRegisteredViewController.m */,
+			);
+			name = Lodin;
 			sourceTree = "<group>";
 		};
 		E17829FC931D6266FCE98451 /* Frameworks */ = {
@@ -726,6 +747,7 @@
 			files = (
 				DAACFCBA1E5C17CE009A859D /* btnIcon_4@3x.png in Resources */,
 				DAACFCF51E5C2C11009A859D /* ad_2.jpg in Resources */,
+				DAF246B21E5E899D0092A39B /* loginBgImg.jpg in Resources */,
 				DAACFCB91E5C17CE009A859D /* btnIcon_4@2x.png in Resources */,
 				DAACFCF61E5C2C11009A859D /* ad_3.jpg in Resources */,
 				DAACFCE01E5C222E009A859D /* guanyu@2x.png in Resources */,
@@ -845,9 +867,11 @@
 				DAACFC801E5BF16C009A859D /* YdHomeTableViewCell.m in Sources */,
 				DA7209D31E5D3C1500AD4B4D /* YdLawyerWebViewController.m in Sources */,
 				DAACFC741E5BEF8B009A859D /* YdAssistViewController.m in Sources */,
+				DAF246B91E5E901C0092A39B /* YdRegisteredViewController.m in Sources */,
 				DA7209CA1E5D307700AD4B4D /* YdListViewController.m in Sources */,
 				DA7209CD1E5D307F00AD4B4D /* YdListTableViewCell.m in Sources */,
 				DA7209E21E5D907100AD4B4D /* YdchangePhoneViewController.m in Sources */,
+				DAF246B61E5E8FEF0092A39B /* YdLodinViewController.m in Sources */,
 				DAACFCEE1E5C2B7C009A859D /* YdConsultingTableViewCell.m in Sources */,
 				DAACFC6A1E5BE4AC009A859D /* YdMianViewController.m in Sources */,
 				DA7209DF1E5D846600AD4B4D /* YdSetViewController.m in Sources */,

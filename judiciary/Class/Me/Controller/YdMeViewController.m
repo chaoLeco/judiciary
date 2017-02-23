@@ -90,6 +90,14 @@
     }
 }
 
+- (IBAction)lodinAction:(id)sender {
+    
+    UIViewController *lodinVc = [self.storyboard instantiateViewControllerWithIdentifier:@"YdLodinNavigationViewController"];
+    [self presentViewController:lodinVc animated:YES completion:nil];
+    
+}
+
+
 /*
 #pragma mark - Navigation
 
