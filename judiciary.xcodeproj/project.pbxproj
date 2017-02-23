@@ -65,8 +65,8 @@
 		DAACFCF71E5C2C11009A859D /* ad_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAACFCF31E5C2C11009A859D /* ad_4.jpg */; };
 		DAACFCF91E5C2F42009A859D /* QQ20170221-161723.png in Resources */ = {isa = PBXBuildFile; fileRef = DAACFCF81E5C2F41009A859D /* QQ20170221-161723.png */; };
 		DAF246B21E5E899D0092A39B /* loginBgImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DAF246B11E5E899D0092A39B /* loginBgImg.jpg */; };
-		DAF246B61E5E8FEF0092A39B /* YdLodinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF246B51E5E8FEF0092A39B /* YdLodinViewController.m */; };
-		DAF246B91E5E901C0092A39B /* YdRegisteredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF246B81E5E901C0092A39B /* YdRegisteredViewController.m */; };
+		DAF246FD1E5EB5040092A39B /* YdLodinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF246FA1E5EB5040092A39B /* YdLodinViewController.m */; };
+		DAF246FE1E5EB5040092A39B /* YdRegisteredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF246FC1E5EB5040092A39B /* YdRegisteredViewController.m */; };
 		E6E04AC3467DADB3C1F54EB5 /* libPods-judiciary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB2BC31A75B8390B34204F2 /* libPods-judiciary.a */; };
 /* End PBXBuildFile section */
 
@@ -177,10 +177,10 @@
 		DAACFCF31E5C2C11009A859D /* ad_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ad_4.jpg; sourceTree = "<group>"; };
 		DAACFCF81E5C2F41009A859D /* QQ20170221-161723.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20170221-161723.png"; sourceTree = "<group>"; };
 		DAF246B11E5E899D0092A39B /* loginBgImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loginBgImg.jpg; sourceTree = "<group>"; };
-		DAF246B41E5E8FEF0092A39B /* YdLodinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YdLodinViewController.h; sourceTree = "<group>"; };
-		DAF246B51E5E8FEF0092A39B /* YdLodinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YdLodinViewController.m; sourceTree = "<group>"; };
-		DAF246B71E5E901C0092A39B /* YdRegisteredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YdRegisteredViewController.h; sourceTree = "<group>"; };
-		DAF246B81E5E901C0092A39B /* YdRegisteredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YdRegisteredViewController.m; sourceTree = "<group>"; };
+		DAF246F91E5EB5040092A39B /* YdLodinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YdLodinViewController.h; sourceTree = "<group>"; };
+		DAF246FA1E5EB5040092A39B /* YdLodinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YdLodinViewController.m; sourceTree = "<group>"; };
+		DAF246FB1E5EB5040092A39B /* YdRegisteredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YdRegisteredViewController.h; sourceTree = "<group>"; };
+		DAF246FC1E5EB5040092A39B /* YdRegisteredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YdRegisteredViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -506,7 +506,7 @@
 				DAACFC671E5BE3BC009A859D /* Views */,
 			);
 			name = "律师咨询";
-			path = assist/Consulting;
+			path = Consulting;
 			sourceTree = "<group>";
 		};
 		DAACFC651E5BE3BC009A859D /* Controller */ = {
@@ -608,12 +608,12 @@
 		DAF246B31E5E8FAF0092A39B /* Lodin */ = {
 			isa = PBXGroup;
 			children = (
-				DAF246B41E5E8FEF0092A39B /* YdLodinViewController.h */,
-				DAF246B51E5E8FEF0092A39B /* YdLodinViewController.m */,
-				DAF246B71E5E901C0092A39B /* YdRegisteredViewController.h */,
-				DAF246B81E5E901C0092A39B /* YdRegisteredViewController.m */,
+				DAF246F91E5EB5040092A39B /* YdLodinViewController.h */,
+				DAF246FA1E5EB5040092A39B /* YdLodinViewController.m */,
+				DAF246FB1E5EB5040092A39B /* YdRegisteredViewController.h */,
+				DAF246FC1E5EB5040092A39B /* YdRegisteredViewController.m */,
 			);
-			name = Lodin;
+			path = Lodin;
 			sourceTree = "<group>";
 		};
 		E17829FC931D6266FCE98451 /* Frameworks */ = {
@@ -867,11 +867,11 @@
 				DAACFC801E5BF16C009A859D /* YdHomeTableViewCell.m in Sources */,
 				DA7209D31E5D3C1500AD4B4D /* YdLawyerWebViewController.m in Sources */,
 				DAACFC741E5BEF8B009A859D /* YdAssistViewController.m in Sources */,
-				DAF246B91E5E901C0092A39B /* YdRegisteredViewController.m in Sources */,
+				DAF246FE1E5EB5040092A39B /* YdRegisteredViewController.m in Sources */,
 				DA7209CA1E5D307700AD4B4D /* YdListViewController.m in Sources */,
 				DA7209CD1E5D307F00AD4B4D /* YdListTableViewCell.m in Sources */,
 				DA7209E21E5D907100AD4B4D /* YdchangePhoneViewController.m in Sources */,
-				DAF246B61E5E8FEF0092A39B /* YdLodinViewController.m in Sources */,
+				DAF246FD1E5EB5040092A39B /* YdLodinViewController.m in Sources */,
 				DAACFCEE1E5C2B7C009A859D /* YdConsultingTableViewCell.m in Sources */,
 				DAACFC6A1E5BE4AC009A859D /* YdMianViewController.m in Sources */,
 				DA7209DF1E5D846600AD4B4D /* YdSetViewController.m in Sources */,

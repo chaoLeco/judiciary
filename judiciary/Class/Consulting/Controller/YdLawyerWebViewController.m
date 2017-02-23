@@ -19,6 +19,8 @@
     // Do any additional setup after loading the view.
     [self webLoadRequestUrl:@"https://www.baidu.com"];
     self.wkWebView.frame = CGRectMake(0, 64, CGRectGetWidth(KBounds), CGRectGetHeight(KBounds)-40);
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
