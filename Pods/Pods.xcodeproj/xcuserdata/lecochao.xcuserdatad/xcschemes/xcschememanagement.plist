@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>FDFullscreenPopGesture.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MBProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,7 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>37F283AC89637E96A8B7135EF0D52FCE</key>
+		<key>38015EB6BBF8FECD5B695A0E0FB4D4C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4AEF293D58EE007FE9B4F4318175E2B8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +72,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>81CC70E20425C7E124FFBF95F999554F</key>
+		<key>709B262533E57EA13578407100546CB3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B0330FC1167316AA0B949A8AB832E61</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -77,12 +92,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F89A9887F9F9C60E353A9BED9829130F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FBCCF3067141F6799FFC69265098A358</key>
+		<key>EE366E1E6962F82E6AEC8AE66FA66CBF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
